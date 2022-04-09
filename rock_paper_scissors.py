@@ -31,15 +31,7 @@ while running:
             comp_pick: str = random.choice(comp_options)
             if event.key == pygame.K_DOWN:  # paper
                 screen.fill((0, 176, 240))
-                """count = pygame.image.load("/assets/count_3-removebg-preview.png")
-                screen.blit(count, (0, 0))
-                screen.fill((0, 176, 240))
-                count = pygame.image.load("/assets/count_2-removebg-preview.png")
-                screen.blit(count, (0, 0))
-                screen.fill((0, 176, 240))
-                count = pygame.image.load("/assets/count_1-removebg-preview.png")
-                screen.blit(count, (0, 0))
-                screen.fill((0, 176, 240)) """
+
                 if comp_pick == "rock":
                     reveal = pygame.image.load("assets/paper_rock-removebg-preview.png")
                     screen.blit(reveal, (0, 0))
